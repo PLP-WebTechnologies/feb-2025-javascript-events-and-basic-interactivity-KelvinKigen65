@@ -1,0 +1,24 @@
+button {
+    padding: 10px 15px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: royalblue;
+    color: white;
+    transform: scale(1.05);
+}
+
+#hoverElement {
+    padding: 10px;
+    background-color: lavender;
+    transition: 0.3s;
+}
+
+#hoverElement:hover {
+    background-color: purple;
+    color: white;
+}
